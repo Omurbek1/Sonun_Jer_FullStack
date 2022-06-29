@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
-import logo from './logo.svg'
-import './App.css'
+
+
 
 function App() {
   const [data, setData] = useState(null)
@@ -14,9 +14,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vite + React!</p>
 
+        <p>Hello Vite + React!</p>
+        <h1 color='#000'>Hello</h1>
         <p>{!data ? "Loading" : data}</p>
       </header>
     </div>
